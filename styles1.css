@@ -1,0 +1,103 @@
+html,
+header{
+
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+	margin: 0;
+}
+
+html {
+	height: 100vh;
+	font-size: 2em;
+}
+
+.parallax {
+	background-image: url(w2.PNG);
+	min-height: 90vh ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+section.parallax{
+	background-image: url(w3.jpg);
+
+}
+
+section.parallax {
+	background-image: url(w3.jpg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.parallax {
+		/* Create the parallax scrolling effect */
+		
+		background-attachment: fixed;
+	}
+}
+
+section {
+	min-height: 90vh;
+	background-color: #e091ba5b;
+	border: thin solid;
+	color: #000000;
+	padding: 0 1em;
+}
+
+section:last-of-type {
+	background-color: hsla(0, 83%, 49%, 0.1);
+	color: #333;
+	padding: 1em;
+}
+
+h1 {
+	font-size: 300%;
+	color: rgb(255, 255, 255);
+	position: sticky;
+	top: 20px;
+	left: 150px;
+
+}
+
+h2 {
+	font-size: 150%;
+	color: rgb(116, 0, 0);
+	position:static ;
+	top: 20px;
+	left: 150px;
+}
+.cause, .event {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(177, 128, 153);}
