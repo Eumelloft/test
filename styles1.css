@@ -98,8 +98,12 @@ h1 {
 
 }
 
+
+h3 
+{font-family: Head;}
+
 h2 {
-	font-family: inhalt;
+	font-family: Head;
 	font-size: 150%;
 	color: rgb(116, 0, 0);
 	position:static ;
