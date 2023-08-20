@@ -28,10 +28,15 @@ body {
     color: #333;
 }
 
+
 header {
     background-color: #222;
     color: white;
     padding: 1em;
+}
+header.sticky {
+    padding: 5px 100px;
+    background: #fff;
 }
 nav {font-family: inhalt;}
 nav ul {
@@ -162,3 +167,10 @@ p {font-family: inhalt;}
 	
 	farbe1: (136 142 50
 	177, 128, 153
+
+
+
+header.sticky ul li a
+{
+    color: #000;
+}
