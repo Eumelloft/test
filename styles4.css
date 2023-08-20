@@ -1,0 +1,164 @@
+html,
+
+header{
+
+}
+@font-face {
+	font-family: Head ;
+	src: url(gretaros.ttf);
+}
+@font-face {
+	font-family: inhalt ;
+	src: url(LT\ Amber\ Regular.otf);}
+
+@font-face {
+    font-family: Rio;
+    src: url(KeineMachtFurNiemand-Regular.ttf);
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 1em;
+}
+nav {font-family: inhalt;}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+	margin: 0;
+}
+
+html {
+	height: 100vh;
+	font-size: 2em;
+}
+
+
+
+.section1 {
+	background-image: url(w2.PNG);
+	min-height: 90vh ;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;}
+
+.parallax {
+	background-image: url(w2.PNG);
+	min-height: 90vh ;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+ 
+
+
+section.parallax1{
+	background-image: url(w3.jpg);
+    min-height: 90vh ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+section.parallax2 {
+	background-image: url(w3.jpg);
+    min-height: 90vh ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section.parallax3 {
+	background-image: url(w3.jpg);
+    min-height: 90vh ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+	.parallax {
+		/* Create the parallax scrolling effect */
+		
+		background-attachment: fixed;
+	}
+    section.parallax1 {
+		/* Create the parallax scrolling effect */
+		
+		background-attachment: fixed;
+	}
+}
+
+section {
+	min-height: 90vh;
+	background-color: #535f215b;
+	border: thin solid;
+	color: #000000;
+	padding: 0 1em;
+	farben:
+	#535f215b
+	#e091ba5b}
+
+
+      
+section:last-of-type {
+	background-color: hsla(0, 83%, 49%, 0.1);
+	color: #333;
+	padding: 1em;
+}
+
+h1 {
+	font-family: Head;
+	font-size: 300%;
+	color: rgb(255, 255, 255);
+	position: sticky;
+	top: 20px;
+	left: 150px;
+
+}
+
+
+h3 
+{font-family: Head;}
+
+h4{font-family: Rio;
+    color: rgb(199, 43, 134);}
+
+h2 {
+	font-family: Head;
+	font-size: 150%;
+	color: rgb(116, 0, 0);
+	position:static ;
+	top: 20px;
+	left: 150px;
+}
+p {font-family: inhalt;}
+.cause, .event {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(136 142 50);}
+	
+	farbe1: (136 142 50
+	177, 128, 153
